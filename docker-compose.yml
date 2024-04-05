@@ -1,26 +1,8 @@
 version: '3.8'
 services:
   movies:
-    image: rahamshaik/paytmmoviesss:latest
+    image: lminnalla123/moviess:latest
     ports:
       - "81:80"
-    deploy:
-      replicas: 3
-  train:
-    image: rahamshaik/paytmtrainnn:latest
-    ports:
-      - "82:80"
-    deploy:
-      replicas: 3
-  dth:
-    image: rahamshaik/paytmdthhh
-    ports:
-      - "83:80"
-    deploy:
-      replicas: 3
-  recharge:
-    image: rahamshaik/paytmrechargeee:latest
-    ports:
-      - "84:80"
     deploy:
       replicas: 3
